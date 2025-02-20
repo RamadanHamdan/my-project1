@@ -16,26 +16,31 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'PHP',
             'slug' => 'php',
+            'color' => 'purple',
         ]);
-
+        
         Category::create([
             'name' => 'Phyton',
             'slug' => 'phyton',
+            'color' => 'blue',
         ]);
-
+        
         Category::create([
             'name' => 'Artificial Intelligence',
             'slug' => 'artificial-intelligence',
+            'color' => 'black',
         ]);
-
+        
         Category::create([
             'name' => 'JavaScript',
             'slug' => 'javascript',
+            'color' => 'yellow',
         ]);
-
+        
         Category::create([
             'name' => 'Laravel',
             'slug' => 'laravel',
+            'color' => 'red',
         ]);
     }
 }
